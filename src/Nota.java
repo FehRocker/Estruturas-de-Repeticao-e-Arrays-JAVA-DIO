@@ -23,7 +23,7 @@ até que o usuário informe um valor válido.
             nota = scan.nextDouble(); // interação novamente
 
         }
-        if (nota<=5){ // condição de aprovado ou reprovado
+        if (nota<=5){ // condição de aprovado ou reprovado.
             System.out.println("Reprovado");
         }else if (nota>=6){
             System.out.println("Aprovado");
